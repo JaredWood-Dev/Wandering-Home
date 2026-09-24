@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Lantern : MonoBehaviour
 {
@@ -14,12 +15,19 @@ public class Lantern : MonoBehaviour
     public Vector2 lanternOffset;
     public float lanternMoveSpeed;
 
+    [Header("Light Component")] 
+    public float maxRadius = 5;
+
     private SpriteRenderer _s;
+    private Light2D _l;
 
 
     void Start()
     {
         _s = GetComponent<SpriteRenderer>();
+        _l = lanternLight.transform.GetChild(0).GetComponent<Light2D>();
+        currentLight = maxLight;
+        _l.pointLightOuterRadius = maxRadius;
     }
     
     private void Update()
@@ -34,5 +42,19 @@ public class Lantern : MonoBehaviour
             lanternLight.transform.position,
             (Vector2)transform.position + new Vector2(lanternOffset.x * dir, lanternOffset.y),
             Time.deltaTime * lanternMoveSpeed);
+
+        currentLight -= Time.deltaTime * drainSpeed;
+        _l.pointLightOuterRadius = maxRadius * (currentLight / maxLight);
+
+        if (currentLight <= 0)
+        {
+            print("light ran out");
+            Destroy(this);
+        }
+    }
+
+    void AddLight(float amount)
+    {
+        currentLight = Mathf.Min(currentLight + amount, maxLight);
     }
 }

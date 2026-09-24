@@ -63,7 +63,6 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         float speedDifference = Mathf.Abs(movementSpeed - Mathf.Abs(_rb.linearVelocityX));
-        print(speedDifference);
         float neededAcceleration = speedDifference / Time.fixedDeltaTime;
         Vector2 force = Vector2.right * (neededAcceleration * _movement);
 
