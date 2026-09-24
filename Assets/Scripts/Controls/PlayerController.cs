@@ -113,9 +113,11 @@ public class PlayerController : MonoBehaviour
         }
         
         //Grounded check
-        RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.down, 1.1f, groundLayers);
-        Debug.DrawLine(transform.position, (Vector3.down *  1.1f) + transform.position, Color.blue);
-        if (ray.collider)
+        RaycastHit2D rayLeft = Physics2D.Raycast(transform.position - new Vector3(0.5f,0,0), Vector2.down, 1.1f, groundLayers);
+        RaycastHit2D rayRight = Physics2D.Raycast(transform.position + new Vector3(0.5f,0,0), Vector2.down, 1.1f, groundLayers);
+        Debug.DrawLine(transform.position, (Vector3.down *  1.1f) + transform.position - new Vector3(0.5f,0,0), Color.blue);
+        Debug.DrawLine(transform.position, (Vector3.down *  1.1f) + transform.position + new Vector3(0.5f,0,0), Color.blue);
+        if (rayLeft.collider || rayRight.collider)
         {
             isGrounded = true;
             if (isJumpBuffered)
