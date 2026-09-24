@@ -23,9 +23,13 @@ public class PlayerController : MonoBehaviour
     public float arialMovementModifer = 0.25f;
 
     [Header("Jump Buffering")] 
-    public float jumpBufferTime;
+    public float jumpBufferTime = 0.2f;
     public bool isJumpBuffered;
     private float _jumpBufferTimer;
+
+    [Header("Coyote Time")] 
+    public float coyoteTime = 0.2f;
+    private float _coyoteTimer;
 
     private Rigidbody2D _rb;
     private SpriteRenderer _s;
@@ -85,7 +89,7 @@ public class PlayerController : MonoBehaviour
         if (jumpState == JumpKeyState.Pressed)
         {
             //when first pressed
-            if (isGrounded)
+            if (isGrounded || _coyoteTimer < coyoteTime)
             {
                 Jump();
             }
@@ -118,6 +122,8 @@ public class PlayerController : MonoBehaviour
             {
                 Jump();
             }
+
+            _coyoteTimer = 0;
         }
         else
         {
@@ -125,6 +131,7 @@ public class PlayerController : MonoBehaviour
         }
 
         _jumpBufferTimer += Time.deltaTime;
+        _coyoteTimer += Time.deltaTime;
 
         if (_jumpBufferTimer > jumpBufferTime)
         {
