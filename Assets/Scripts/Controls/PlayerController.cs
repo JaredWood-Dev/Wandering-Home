@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayers;
 
     private Rigidbody2D _rb;
+    private SpriteRenderer _s;
     private InputAction _moveAction;
     private InputAction _jumpAction;
     private float _movement;
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _s = GetComponent<SpriteRenderer>();
 
         _moveAction = InputSystem.actions.FindAction("Move");
         _jumpAction = InputSystem.actions.FindAction("Jump");
@@ -37,6 +39,15 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         _movement = _moveAction.ReadValue<Vector2>().x;
+
+        if (_movement > 0)
+        {
+            _s.flipX = false;
+        }
+        if (_movement < 0)
+        {
+            _s.flipX = true;
+        }
 
         if (_jumpAction.WasPressedThisFrame())
         {
