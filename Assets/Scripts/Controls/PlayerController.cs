@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public float jumpPower;
     public bool isGrounded;
     public LayerMask groundLayers;
+    public float arialMovementModifer = 0.25f;
 
     private Rigidbody2D _rb;
     private SpriteRenderer _s;
@@ -65,9 +66,13 @@ public class PlayerController : MonoBehaviour
         float speedDifference = Mathf.Abs(movementSpeed - Mathf.Abs(_rb.linearVelocityX));
         float neededAcceleration = speedDifference / Time.fixedDeltaTime;
         Vector2 force = Vector2.right * (neededAcceleration * _movement);
-
+        
         if (_movement != 0)
         {
+            if (!isGrounded)
+            {
+                force *= arialMovementModifer;
+            }
             _rb.AddForce(force);
         }
         
