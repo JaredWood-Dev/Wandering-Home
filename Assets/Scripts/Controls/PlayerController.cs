@@ -22,6 +22,11 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayers;
     public float arialMovementModifer = 0.25f;
 
+    [Header("Jump Buffering")] 
+    public float jumpBufferTime;
+    public bool isJumpBuffered;
+    private float _jumpBufferTimer;
+
     private Rigidbody2D _rb;
     private SpriteRenderer _s;
     private InputAction _moveAction;
@@ -82,8 +87,12 @@ public class PlayerController : MonoBehaviour
             //when first pressed
             if (isGrounded)
             {
-                _rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
-                isGrounded = false;
+                Jump();
+            }
+            else
+            {
+                isJumpBuffered = true;
+                _jumpBufferTimer = 0;
             }
 
             jumpState = JumpKeyState.Held;
@@ -105,10 +114,27 @@ public class PlayerController : MonoBehaviour
         if (ray.collider)
         {
             isGrounded = true;
+            if (isJumpBuffered)
+            {
+                Jump();
+            }
         }
         else
         {
             isGrounded = false;
         }
+
+        _jumpBufferTimer += Time.deltaTime;
+
+        if (_jumpBufferTimer > jumpBufferTime)
+        {
+            isJumpBuffered = false;
+        }
+    }
+
+    void Jump()
+    {
+        _rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+        isGrounded = false;
     }
 }
