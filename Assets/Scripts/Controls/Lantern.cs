@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class Lantern : MonoBehaviour
 {
@@ -50,10 +51,11 @@ public class Lantern : MonoBehaviour
         {
             print("light ran out");
             Destroy(this);
+            SceneManager.LoadScene(0);
         }
     }
 
-    void AddLight(float amount)
+    public void AddLight(float amount)
     {
         currentLight = Mathf.Min(currentLight + amount, maxLight);
     }
