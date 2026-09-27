@@ -42,6 +42,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 672492147
+    locked: 0
+  - name: Moons
+    uniqueID: 1018607491
+    locked: 0
+  - name: Landscape
+    uniqueID: 1698357769
+    locked: 0
+  - name: Background
+    uniqueID: 2373398945
+    locked: 0
+  - name: Midground
+    uniqueID: 238833743
+    locked: 0
+  - name: Foreground
+    uniqueID: 2022345233
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []
