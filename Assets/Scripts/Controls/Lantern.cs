@@ -13,8 +13,8 @@ public class Lantern : MonoBehaviour
     public float maxLight;
     public float currentLight;
     public GameObject lanternLight;
-    public Vector2 lanternOffset;
-    public float lanternMoveSpeed;
+    //public Vector2 lanternOffset;
+    //public float lanternMoveSpeed;
 
     [Header("Light Component")] 
     public float maxRadius = 5;
@@ -33,16 +33,13 @@ public class Lantern : MonoBehaviour
     
     private void Update()
     {
-        float dir = 1;
-        if (_s.flipX)
-        {
-            dir = -1;
-        }
-        
+
+        /*
         lanternLight.transform.position = Vector2.Lerp(
             lanternLight.transform.position,
             (Vector2)transform.position + new Vector2(lanternOffset.x * dir, lanternOffset.y),
             Time.deltaTime * lanternMoveSpeed);
+            */
 
         currentLight -= Time.deltaTime * drainSpeed;
         _l.pointLightOuterRadius = maxRadius * (currentLight / maxLight);

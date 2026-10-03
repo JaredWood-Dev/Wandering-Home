@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public LayerMask groundLayers;
     public float arialMovementModifer = 0.25f;
+    public float rayHeight = 1.5f;
 
     [Header("Jump Buffering")] 
     public float jumpBufferTime = 0.2f;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _rb;
     private SpriteRenderer _s;
+    private Animator _a;
     private InputAction _moveAction;
     private InputAction _jumpAction;
     private float _movement;
@@ -41,6 +43,7 @@ public class PlayerController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _s = GetComponent<SpriteRenderer>();
+        _a = GetComponent<Animator>();
 
         _moveAction = InputSystem.actions.FindAction("Move");
         _jumpAction = InputSystem.actions.FindAction("Jump");
@@ -52,12 +55,13 @@ public class PlayerController : MonoBehaviour
 
         if (_movement > 0)
         {
-            _s.flipX = false;
+            transform.localScale = new Vector2(1, 1);
         }
         if (_movement < 0)
         {
-            _s.flipX = true;
+            transform.localScale = new Vector2(-1, 1);
         }
+        _a.SetFloat("move", Mathf.Abs(_movement));
 
         if (_jumpAction.WasPressedThisFrame())
         {
@@ -113,13 +117,14 @@ public class PlayerController : MonoBehaviour
         }
         
         //Grounded check
-        RaycastHit2D rayLeft = Physics2D.Raycast(transform.position - new Vector3(0.5f,0,0), Vector2.down, 1.1f, groundLayers);
-        RaycastHit2D rayRight = Physics2D.Raycast(transform.position + new Vector3(0.5f,0,0), Vector2.down, 1.1f, groundLayers);
-        Debug.DrawLine(transform.position, (Vector3.down *  1.1f) + transform.position - new Vector3(0.5f,0,0), Color.blue);
-        Debug.DrawLine(transform.position, (Vector3.down *  1.1f) + transform.position + new Vector3(0.5f,0,0), Color.blue);
+        RaycastHit2D rayLeft = Physics2D.Raycast(transform.position - new Vector3(0.5f,0,0), Vector2.down, rayHeight, groundLayers);
+        RaycastHit2D rayRight = Physics2D.Raycast(transform.position + new Vector3(0.5f,0,0), Vector2.down, rayHeight, groundLayers);
+        Debug.DrawLine(transform.position, (Vector3.down *  rayHeight) + transform.position - new Vector3(0.5f,0,0), Color.blue);
+        Debug.DrawLine(transform.position, (Vector3.down *  rayHeight) + transform.position + new Vector3(0.5f,0,0), Color.blue);
         if (rayLeft.collider || rayRight.collider)
         {
             isGrounded = true;
+            _a.SetBool("onGround", true);
             if (isJumpBuffered)
             {
                 Jump();
@@ -130,6 +135,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             isGrounded = false;
+            _a.SetBool("onGround", false);
         }
 
         _jumpBufferTimer += Time.deltaTime;
