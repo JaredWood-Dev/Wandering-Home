@@ -111,7 +111,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -548,6 +548,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1449
+        width: 117
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4f823719a7a934990c0dc5e23046fa
+      internalID: -1892444121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -564,6 +586,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Wandering Home Sprite Sheet_0: -1892444121
       Wandering Home Sprite Sheet_1: -4290300919736107986
       Wandering Home Sprite Sheet_10: 5466388672809370202
       Wandering Home Sprite Sheet_12: -3859578432220368231
