@@ -89,7 +89,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 5, y: 0.75}
+  m_Size: {x: 3.75, y: 0.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 1
   m_WasSpriteAssigned: 1
@@ -110,7 +110,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 90
+  m_SurfaceArc: 50
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
@@ -153,12 +153,12 @@ BoxCollider2D:
     border: {x: 1.28, y: 0, z: 1.24, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 3.9499998, y: 0.66999996}
-    newSize: {x: 5, y: 0.75}
+    newSize: {x: 3.75, y: 0.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 1
   m_AutoTiling: 1
-  m_Size: {x: 2.61, y: 0.5}
+  m_Size: {x: 3.95, y: 0.5}
   m_EdgeRadius: 0
 --- !u!114 &8297247702381009577
 MonoBehaviour:
@@ -214,51 +214,51 @@ MonoBehaviour:
       type: {class: ShadowMesh2D, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data:
         m_Vertices:
-        - position: {x: 1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: -1, y: 0, z: -1.3491974, w: 0.18855286}
-        - position: {x: -1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: -1, y: 0, z: -1.3491974, w: -0.18855286}
-        - position: {x: -1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: -1, y: 0, z: 1.3491974, w: -0.18855286}
-        - position: {x: 1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: -1, y: 0, z: 1.3491974, w: 0.18855286}
-        - position: {x: 1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: -1.3491974, w: 0.18855286}
-        - position: {x: -1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: 1.3491974, w: 0.18855286}
-        - position: {x: 1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 1, y: 0, z: 1.3491974, w: -0.18855286}
-        - position: {x: 1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 3, y: 0, z: -1.3491974, w: -0.18855286}
-        - position: {x: -1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: -1.3491974, w: -0.18855286}
-        - position: {x: -1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: -1.3491974, w: 0.18855286}
-        - position: {x: -1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 1, y: 0, z: 1.3491974, w: 0.18855286}
-        - position: {x: -1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 3, y: 0, z: 1.3491974, w: -0.18855286}
-        - position: {x: -1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: 1.3491974, w: -0.18855286}
-        - position: {x: 1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: -1.3491974, w: -0.18855286}
-        - position: {x: -1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 1, y: 0, z: -1.3491974, w: 0.18855286}
-        - position: {x: -1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 3, y: 0, z: 1.3491974, w: 0.18855286}
-        - position: {x: 1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: 1.3491974, w: 0.18855286}
-        - position: {x: 1.3491974, y: 0.18855286, z: 0}
-          tangent: {x: 0, y: 0, z: 1.3491974, w: -0.18855286}
-        - position: {x: 1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 1, y: 0, z: -1.3491974, w: -0.18855286}
-        - position: {x: 1.3491974, y: -0.18855286, z: 0}
-          tangent: {x: 3, y: 0, z: -1.3491974, w: 0.18855286}
+        - position: {x: 1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: -1, y: 0, z: -1.8650055, w: 0.3650055}
+        - position: {x: -1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: -1, y: 0, z: -1.8650055, w: -0.3650055}
+        - position: {x: -1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: -1, y: 0, z: 1.8650055, w: -0.3650055}
+        - position: {x: 1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: -1, y: 0, z: 1.8650055, w: 0.3650055}
+        - position: {x: 1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: -1.8650055, w: 0.3650055}
+        - position: {x: -1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: 1.8650055, w: 0.3650055}
+        - position: {x: 1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 1, y: 0, z: 1.8650055, w: -0.3650055}
+        - position: {x: 1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 3, y: 0, z: -1.8650055, w: -0.3650055}
+        - position: {x: -1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: -1.8650055, w: -0.3650055}
+        - position: {x: -1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: -1.8650055, w: 0.3650055}
+        - position: {x: -1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 1, y: 0, z: 1.8650055, w: 0.3650055}
+        - position: {x: -1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 3, y: 0, z: 1.8650055, w: -0.3650055}
+        - position: {x: -1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: 1.8650055, w: -0.3650055}
+        - position: {x: 1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: -1.8650055, w: -0.3650055}
+        - position: {x: -1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 1, y: 0, z: -1.8650055, w: 0.3650055}
+        - position: {x: -1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 3, y: 0, z: 1.8650055, w: 0.3650055}
+        - position: {x: 1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: 1.8650055, w: 0.3650055}
+        - position: {x: 1.8650055, y: 0.3650055, z: 0}
+          tangent: {x: 0, y: 0, z: 1.8650055, w: -0.3650055}
+        - position: {x: 1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 1, y: 0, z: -1.8650055, w: -0.3650055}
+        - position: {x: 1.8650055, y: -0.3650055, z: 0}
+          tangent: {x: 3, y: 0, z: -1.8650055, w: 0.3650055}
         m_Indices: 000000000400000005000000050000000100000000000000010000000800000009000000090000000200000001000000020000000c0000000d0000000d0000000300000002000000030000001000000011000000110000000000000003000000000000000600000007000000010000000a0000000b000000020000000e0000000f000000030000001200000013000000i
         m_IsTransformable: 1
         m_LocalBounds:
           m_Center: {x: 0, y: 0, z: 0}
-          m_Extent: {x: 1.3491974, y: 0.18855286, z: 0}
+          m_Extent: {x: 1.8650055, y: 0.3650055, z: 0}
         m_EdgeProcessing: 1
         m_TrimEdge: 0.01
         m_FlipX: 0

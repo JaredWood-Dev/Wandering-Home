@@ -557,7 +557,7 @@ TextureImporter:
         width: 117
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -566,6 +566,72 @@ TextureImporter:
       bones: []
       spriteID: 9e4f823719a7a934990c0dc5e23046fa
       internalID: -1892444121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 505
+        width: 394
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2754eb02b36995d44ab4063de49eaed5
+      internalID: 1418316939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_background
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 31
+        width: 489
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 88, y: 104, z: 108, w: 101}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1f1ac985873484bb1cc32387f331a9
+      internalID: 869425031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pillar
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 246
+        width: 111
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 29, z: 0, w: 26}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3cca47f08306340920f06b3086fe33
+      internalID: -297081156
       vertices: []
       indices: 
       edges: []
@@ -587,7 +653,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Wandering Home Sprite Sheet_0: -1892444121
-      Wandering Home Sprite Sheet_1: -4290300919736107986
       Wandering Home Sprite Sheet_10: 5466388672809370202
       Wandering Home Sprite Sheet_12: -3859578432220368231
       Wandering Home Sprite Sheet_13: -699351690212017266
@@ -613,13 +678,16 @@ TextureImporter:
       coal_walk_6: 2082042152
       coal_walk_7: -958563856
       coal_walk_8: -1386157422
+      dirt_background: 869425031
       fall_ground: 1495001742
       lamp_1: -1286257175
       lamp_2: 122506958
       lantern: -6919778820770155035
       platform: -149128948
+      pumpkin: -4290300919736107986
       red_leaves: 570552971
       tree: -1071219457
+      wooden_pillar: -297081156
       yellow_leaves: -797989960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
