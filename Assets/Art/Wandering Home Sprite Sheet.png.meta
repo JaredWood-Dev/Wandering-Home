@@ -461,72 +461,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: red_leaves
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 1548
-        width: 933
-        height: 612
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e3ead67ece5e9d4d9a47cfd8cc475e7
-      internalID: 570552971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellow_leaves
-      rect:
-        serializedVersion: 2
-        x: 1139
-        y: 1452
-        width: 1093
-        height: 707
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ea443e85363615499c97725c1dcd21c
-      internalID: -797989960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tree
-      rect:
-        serializedVersion: 2
-        x: 2908
-        y: 0
-        width: 932
-        height: 2160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8f4634786c56db4da9d8d88cf1bd504
-      internalID: -1071219457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: platform
       rect:
         serializedVersion: 2
@@ -601,7 +535,7 @@ TextureImporter:
         width: 489
         height: 475
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 88, y: 104, z: 108, w: 101}
       customData: 
       outline: []
@@ -623,7 +557,7 @@ TextureImporter:
         width: 111
         height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 29, z: 0, w: 26}
       customData: 
       outline: []
@@ -632,6 +566,72 @@ TextureImporter:
       bones: []
       spriteID: 8b3cca47f08306340920f06b3086fe33
       internalID: -297081156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goliath_npc
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1470
+        width: 197
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3ab4ed346ca6743abe92b1daad37aa
+      internalID: 2087781558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camp_fire
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1445
+        width: 137
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eb691955b485342a19e082e78df8cc
+      internalID: -1518356702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1462
+        width: 624
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd64a474ba4385347973daf21e834f63
+      internalID: 1391777270
       vertices: []
       indices: 
       edges: []
@@ -669,6 +669,7 @@ TextureImporter:
       Wandering Home Sprite Sheet_7: -1195553064943809304
       Wandering Home Sprite Sheet_8: -3620158101869499717
       Wandering Home Sprite Sheet_9: 3549185951870435724
+      camp_fire: -1518356702
       coal_idle: -6630440982072911123
       coal_walk_1: 1570566472577598909
       coal_walk_2: -8143111424514370466
@@ -680,12 +681,14 @@ TextureImporter:
       coal_walk_8: -1386157422
       dirt_background: 869425031
       fall_ground: 1495001742
+      goliath_npc: 2087781558
       lamp_1: -1286257175
       lamp_2: 122506958
       lantern: -6919778820770155035
       platform: -149128948
       pumpkin: -4290300919736107986
       red_leaves: 570552971
+      tent: 1391777270
       tree: -1071219457
       wooden_pillar: -297081156
       yellow_leaves: -797989960
