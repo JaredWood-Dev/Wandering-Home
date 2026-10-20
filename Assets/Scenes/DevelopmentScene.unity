@@ -5057,6 +5057,169 @@ MonoBehaviour:
           m_Image: {fileID: 0}
           m_Tooltip: 
           m_TextWithWhitespace: "Shape Editor\u200B"
+--- !u!1 &360455796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 360455799}
+  - component: {fileID: 360455798}
+  - component: {fileID: 360455797}
+  - component: {fileID: 360455800}
+  m_Layer: 0
+  m_Name: Sign Post
+  m_TagString: Interactible
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &360455797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360455796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d812517dad0c34192412a304dccf42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueInteraction
+  text:
+    Sentences:
+    - CurrentSpeaker: {fileID: 11400000, guid: 7ad3b384b0f26784bb131951493d2aea, type: 2}
+      displaySpeaker: 0
+      Sentence: 'Jordbuk ->
+
+        Frostheim <-'
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 0
+      Sentence: I'm a long way from home..
+  dialogueManager: {fileID: 1760276276}
+--- !u!212 &360455798
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360455796}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: -2129367239
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!4 &360455799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360455796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.78, y: -1.92, z: 0}
+  m_LocalScale: {x: 2.3865, y: 2.3172, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &360455800
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360455796}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &361602126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10717,6 +10880,7 @@ GameObject:
   - component: {fileID: 758134785}
   - component: {fileID: 758134786}
   - component: {fileID: 758134787}
+  - component: {fileID: 758134788}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -10820,7 +10984,7 @@ Transform:
   m_GameObject: {fileID: 758134777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.74, y: 1.19, z: 0}
+  m_LocalPosition: {x: -8.11, y: -0.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10985,6 +11149,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.14752173, y: 0.04785967}
   m_Size: {x: 1.5850983, y: 3.6766567}
   m_Direction: 0
+--- !u!114 &758134788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758134777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c96db313d32a9240b3abe3c45ef577f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractor
 --- !u!1 &762761281
 GameObject:
   m_ObjectHideFlags: 0
@@ -24984,7 +25160,7 @@ Transform:
   m_GameObject: {fileID: 1474021390}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.74, y: 1.19, z: -10}
+  m_LocalPosition: {x: -8.11, y: -0.98, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33010,9 +33186,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2051650843}
   - component: {fileID: 2051650842}
+  - component: {fileID: 2051650845}
+  - component: {fileID: 2051650844}
   m_Layer: 0
   m_Name: Goliath
-  m_TagString: Untagged
+  m_TagString: Interactible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33062,8 +33240,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2022345233
-  m_SortingLayer: 7
+  m_SortingLayerID: -2129367239
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2087781558, guid: 7dfa227e4c2e125418254f10ef0e380f, type: 3}
@@ -33086,12 +33264,97 @@ Transform:
   m_GameObject: {fileID: 2051650841}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 264.72156, y: 11.419647, z: 0}
+  m_LocalPosition: {x: 263.23, y: 11.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2051650844
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051650841}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.015393019, y: 0.15392923}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.97, y: 3.78}
+    newSize: {x: 1.97, y: 3.78}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.9243603, y: 4.087858}
+  m_EdgeRadius: 0
+--- !u!114 &2051650845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051650841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d812517dad0c34192412a304dccf42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueInteraction
+  text:
+    Sentences:
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 0
+      Sentence: A little late to be wandering around in the dark huh?
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 0
+      Sentence: Oh uh. I.. I'm just trying to go home.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 0
+      Sentence: Well, just be safe out there.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 0
+      Sentence: Those black scales and orange eyes. You remind me of someone.
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 0
+      Sentence: Oh uh.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 0
+      Sentence: Have you heard of, oh what was his name. Jordgar I think?
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 0
+      Sentence: Yeah, He's my dad.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 0
+      Sentence: So Jordgar had a son.
+  dialogueManager: {fileID: 1760276276}
 --- !u!1001 &2057252039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34691,3 +34954,4 @@ SceneRoots:
   - {fileID: 130268753}
   - {fileID: 76532400}
   - {fileID: 1760276277}
+  - {fileID: 360455799}
