@@ -111,7 +111,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -461,72 +461,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: red_leaves
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 1548
-        width: 933
-        height: 612
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e3ead67ece5e9d4d9a47cfd8cc475e7
-      internalID: 570552971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: yellow_leaves
-      rect:
-        serializedVersion: 2
-        x: 1139
-        y: 1452
-        width: 1093
-        height: 707
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ea443e85363615499c97725c1dcd21c
-      internalID: -797989960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tree
-      rect:
-        serializedVersion: 2
-        x: 2908
-        y: 0
-        width: 932
-        height: 2160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8f4634786c56db4da9d8d88cf1bd504
-      internalID: -1071219457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: platform
       rect:
         serializedVersion: 2
@@ -548,6 +482,314 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1449
+        width: 117
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4f823719a7a934990c0dc5e23046fa
+      internalID: -1892444121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 505
+        width: 394
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2754eb02b36995d44ab4063de49eaed5
+      internalID: 1418316939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_background
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 31
+        width: 489
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 88, y: 104, z: 108, w: 101}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1f1ac985873484bb1cc32387f331a9
+      internalID: 869425031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden_pillar
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 246
+        width: 111
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 29, z: 0, w: 26}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3cca47f08306340920f06b3086fe33
+      internalID: -297081156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goliath_npc
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1470
+        width: 197
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3ab4ed346ca6743abe92b1daad37aa
+      internalID: 2087781558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camp_fire
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1445
+        width: 137
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eb691955b485342a19e082e78df8cc
+      internalID: -1518356702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1462
+        width: 624
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd64a474ba4385347973daf21e834f63
+      internalID: 1391777270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiamat_rubble
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 316
+        width: 251
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a7e56bb0687804aa1696631a39290d
+      internalID: 903074420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign_post
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 511
+        width: 235
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e2a22b05bc4ea4391fa6676e17865f
+      internalID: 438014892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zaeoulus_shrine
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 496
+        width: 349
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60671cb6dcb15504dba7fd0a4dd4ebd5
+      internalID: 1932007942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monument
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 134
+        width: 450
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848712f32a73ac44ead38dd39a8c9f4b
+      internalID: -1354508651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wheat
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 490
+        width: 385
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 59, y: 0, z: 40, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05742c185ae64540942e46bac6c451c
+      internalID: -451320203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 748
+        width: 516
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 72, y: 0, z: 71, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3aed92156bfe34a97f0867e934615c
+      internalID: 681754750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scare_crow
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 440
+        width: 453
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5e5d2131da7574898a39bd5fd9651d
+      internalID: 1681155388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -564,7 +806,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Wandering Home Sprite Sheet_1: -4290300919736107986
+      Wandering Home Sprite Sheet_0: -1892444121
       Wandering Home Sprite Sheet_10: 5466388672809370202
       Wandering Home Sprite Sheet_12: -3859578432220368231
       Wandering Home Sprite Sheet_13: -699351690212017266
@@ -581,6 +823,7 @@ TextureImporter:
       Wandering Home Sprite Sheet_7: -1195553064943809304
       Wandering Home Sprite Sheet_8: -3620158101869499717
       Wandering Home Sprite Sheet_9: 3549185951870435724
+      camp_fire: -1518356702
       coal_idle: -6630440982072911123
       coal_walk_1: 1570566472577598909
       coal_walk_2: -8143111424514370466
@@ -590,14 +833,26 @@ TextureImporter:
       coal_walk_6: 2082042152
       coal_walk_7: -958563856
       coal_walk_8: -1386157422
+      dirt_background: 869425031
       fall_ground: 1495001742
+      fence: 681754750
+      goliath_npc: 2087781558
       lamp_1: -1286257175
       lamp_2: 122506958
       lantern: -6919778820770155035
+      monument: -1354508651
       platform: -149128948
+      pumpkin: -4290300919736107986
       red_leaves: 570552971
+      scare_crow: 1681155388
+      sign_post: 438014892
+      tent: 1391777270
+      tiamat_rubble: 903074420
       tree: -1071219457
+      wheat: -451320203
+      wooden_pillar: -297081156
       yellow_leaves: -797989960
+      zaeoulus_shrine: 1932007942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

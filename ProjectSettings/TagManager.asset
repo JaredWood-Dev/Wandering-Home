@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Collectible
+  - Interactible
   layers:
   - Default
   - TransparentFX
@@ -42,22 +43,28 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Sky
+  - name: 'Skybox: Sky'
     uniqueID: 672492147
     locked: 0
-  - name: Moons
+  - name: 'Skybox: Moons'
     uniqueID: 1018607491
     locked: 0
-  - name: Landscape
+  - name: 'Skybox: Landscape'
     uniqueID: 1698357769
     locked: 0
-  - name: Background
+  - name: 'Skybox: Background'
     uniqueID: 2373398945
     locked: 0
-  - name: Midground
+  - name: 'Level: Background'
+    uniqueID: 2165600057
+    locked: 0
+  - name: 'Level: Midground'
     uniqueID: 238833743
     locked: 0
-  - name: Foreground
+  - name: Player
+    uniqueID: 3860510461
+    locked: 0
+  - name: 'Level: Foreground'
     uniqueID: 2022345233
     locked: 0
   m_RenderingLayers:

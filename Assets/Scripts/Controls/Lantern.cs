@@ -15,6 +15,8 @@ public class Lantern : MonoBehaviour
     public GameObject lanternLight;
     //public Vector2 lanternOffset;
     //public float lanternMoveSpeed;
+    [Tooltip("If true, Coal's lantern will be filled up and will not lose light. This is enabled if in a safe enviroment.")]
+    public bool isSafe = false;
 
     [Header("Light Component")] 
     public float maxRadius = 5;
@@ -41,8 +43,12 @@ public class Lantern : MonoBehaviour
             Time.deltaTime * lanternMoveSpeed);
             */
 
-        currentLight -= Time.deltaTime * drainSpeed;
-        _l.pointLightOuterRadius = maxRadius * (currentLight / maxLight);
+        //If we are in a Safe Zone, do not lose light
+        if (!isSafe)
+        {
+            currentLight -= Time.deltaTime * drainSpeed;
+            _l.pointLightOuterRadius = maxRadius * (currentLight / maxLight);
+        }
 
         if (currentLight <= 0)
         {
