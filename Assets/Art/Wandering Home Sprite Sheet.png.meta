@@ -579,7 +579,7 @@ TextureImporter:
         width: 197
         height: 378
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -601,7 +601,7 @@ TextureImporter:
         width: 137
         height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -623,7 +623,7 @@ TextureImporter:
         width: 624
         height: 325
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -632,6 +632,160 @@ TextureImporter:
       bones: []
       spriteID: bd64a474ba4385347973daf21e834f63
       internalID: 1391777270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiamat_rubble
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 316
+        width: 251
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a7e56bb0687804aa1696631a39290d
+      internalID: 903074420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign_post
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 511
+        width: 235
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e2a22b05bc4ea4391fa6676e17865f
+      internalID: 438014892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zaeoulus_shrine
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 496
+        width: 349
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60671cb6dcb15504dba7fd0a4dd4ebd5
+      internalID: 1932007942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monument
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 134
+        width: 450
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848712f32a73ac44ead38dd39a8c9f4b
+      internalID: -1354508651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wheat
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 490
+        width: 385
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 59, y: 0, z: 40, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05742c185ae64540942e46bac6c451c
+      internalID: -451320203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 748
+        width: 516
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 72, y: 0, z: 71, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3aed92156bfe34a97f0867e934615c
+      internalID: 681754750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scare_crow
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 440
+        width: 453
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5e5d2131da7574898a39bd5fd9651d
+      internalID: 1681155388
       vertices: []
       indices: 
       edges: []
@@ -681,17 +835,24 @@ TextureImporter:
       coal_walk_8: -1386157422
       dirt_background: 869425031
       fall_ground: 1495001742
+      fence: 681754750
       goliath_npc: 2087781558
       lamp_1: -1286257175
       lamp_2: 122506958
       lantern: -6919778820770155035
+      monument: -1354508651
       platform: -149128948
       pumpkin: -4290300919736107986
       red_leaves: 570552971
+      scare_crow: 1681155388
+      sign_post: 438014892
       tent: 1391777270
+      tiamat_rubble: 903074420
       tree: -1071219457
+      wheat: -451320203
       wooden_pillar: -297081156
       yellow_leaves: -797989960
+      zaeoulus_shrine: 1932007942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -61,6 +61,9 @@ TagManager:
   - name: 'Level: Midground'
     uniqueID: 238833743
     locked: 0
+  - name: Player
+    uniqueID: 3860510461
+    locked: 0
   - name: 'Level: Foreground'
     uniqueID: 2022345233
     locked: 0
