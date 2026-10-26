@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 238833743
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -149128948, guid: 7dfa227e4c2e125418254f10ef0e380f, type: 3}
@@ -124,7 +124,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 00c878445558ed843b91e6f3ba6ad8fc, type: 2}
+  m_Material: {fileID: 6200000, guid: 7265e953f318f2943a1a7f37a3287892, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
