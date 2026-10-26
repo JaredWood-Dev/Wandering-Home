@@ -50,11 +50,11 @@ public class DialogueManager : MonoBehaviour
 
         if (sentence.displaySpeaker)
         {
-            speakerFrame.gameObject.SetActive(true);
+            //speakerFrame.gameObject.SetActive(true);
             nameText.gameObject.SetActive(true);
-            speakerImage.gameObject.SetActive(true);
+            //speakerImage.gameObject.SetActive(true);
             nameText.text = sentence.CurrentSpeaker.Name;
-            speakerImage.sprite = sentence.CurrentSpeaker.Portrait;
+            //speakerImage.sprite = sentence.CurrentSpeaker.Portrait;
         }
         else
         {
