@@ -194,7 +194,7 @@ MonoBehaviour:
   m_ShadowCastingSource: 2
   m_ShadowMesh:
     rid: 7233332414668603502
-  m_CastingOption: 1
+  m_CastingOption: 3
   m_PreviousTrimEdge: 0.01
   m_PreviousEdgeProcessing: 1
   m_PreviousShadowCastingSource: 2

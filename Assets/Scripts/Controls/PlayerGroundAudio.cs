@@ -17,6 +17,10 @@ public class PlayerGroundAudio : MonoBehaviour
     private PlayerController _pc;
     private AudioSource _as;
     public ContactFilter2D groundLayers;
+    public float minPitch = 0.99f;
+    public float maxPitch = 1.01f;
+    public float minVolume = 0.85f;
+    public float maxVolume = 1f;
 
     private void Start()
     {
@@ -38,6 +42,8 @@ public class PlayerGroundAudio : MonoBehaviour
                         AudioClip sound = audioMaterial.audioClips[new Random().Next(audioMaterial.audioClips.Length)];
                         if (!_as.isPlaying)
                         {
+                            _as.pitch = UnityEngine.Random.Range(minPitch, maxPitch);
+                            _as.volume = UnityEngine.Random.Range(minVolume, maxVolume);
                             _as.PlayOneShot(sound);
                         }
                     }
