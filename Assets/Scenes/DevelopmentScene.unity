@@ -2405,6 +2405,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &124581906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3484344897295352161, guid: 57cc1167f1b9f3e46b8e6d406360262a, type: 3}
+  m_PrefabInstance: {fileID: 7082894761139050417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &126780975
 GameObject:
   m_ObjectHideFlags: 0
@@ -15940,6 +15945,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ResetPlayer
   checkPoint: {x: -8, y: 0}
   overlay: {fileID: 133420910}
+  lampOils:
+  - {fileID: 124581906}
+  - {fileID: 1296025702}
+  - {fileID: 1441542978}
+  - {fileID: 1244491975}
 --- !u!1 &762761281
 GameObject:
   m_ObjectHideFlags: 0
@@ -27504,6 +27514,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1244491975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3484344897295352161, guid: 57cc1167f1b9f3e46b8e6d406360262a, type: 3}
+  m_PrefabInstance: {fileID: 388635790}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1248787072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29008,6 +29023,11 @@ MonoBehaviour:
   cam: {fileID: 0}
   parallaxEffect: 0.9
   isVertical: 1
+--- !u!1 &1296025702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3484344897295352161, guid: 57cc1167f1b9f3e46b8e6d406360262a, type: 3}
+  m_PrefabInstance: {fileID: 2031813609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1316272532
 GameObject:
   m_ObjectHideFlags: 0
@@ -35264,6 +35284,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c55bde5144baba641b83e41ea49f627a, type: 3}
+--- !u!1 &1441542978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3484344897295352161, guid: 57cc1167f1b9f3e46b8e6d406360262a, type: 3}
+  m_PrefabInstance: {fileID: 788448211}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1442891198
 GameObject:
   m_ObjectHideFlags: 0

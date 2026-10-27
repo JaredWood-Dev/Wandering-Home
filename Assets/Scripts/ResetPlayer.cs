@@ -6,11 +6,18 @@ public class ResetPlayer : MonoBehaviour
 {
     public Vector2 checkPoint;
     public Fade overlay;
+    public GameObject[] lampOils;
 
     public void ResetPlr()
     {
         transform.position = checkPoint;
         Camera.main.transform.position = new Vector3(checkPoint.x, checkPoint.y, Camera.main.transform.position.z);
+        foreach (var oil in lampOils)
+        {
+            print("setting active");
+            oil.SetActive(true);
+            oil.GetComponent<SpriteRenderer>().enabled = true;
+        }
     }
     
     public IEnumerator TriggerReset()

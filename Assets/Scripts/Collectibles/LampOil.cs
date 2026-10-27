@@ -23,6 +23,6 @@ public class LampOil : MonoBehaviour, ICollectible
 
    void DestroyObject()
    {
-      Destroy(gameObject);
+      gameObject.SetActive(false);
    }
 }
