@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D rayRight = Physics2D.Raycast(transform.position + new Vector3(0.5f,0,0), Vector2.down, rayHeight, groundLayers);
         Debug.DrawLine(transform.position, (Vector3.down *  rayHeight) + transform.position - new Vector3(0.5f,0,0), Color.blue);
         Debug.DrawLine(transform.position, (Vector3.down *  rayHeight) + transform.position + new Vector3(0.5f,0,0), Color.blue);
-        if (rayLeft.collider || rayRight.collider)
+        if ((rayLeft.collider || rayRight.collider) && !(_rb.linearVelocityY > 0.01f))
         {
             isGrounded = true;
             _a.SetBool("onGround", true);
