@@ -2,8 +2,11 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Collectible
+  - Interactible
+  - KillZone
   layers:
   - Default
   - TransparentFX
@@ -11,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -41,3 +44,30 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 'Skybox: Sky'
+    uniqueID: 672492147
+    locked: 0
+  - name: 'Skybox: Moons'
+    uniqueID: 1018607491
+    locked: 0
+  - name: 'Skybox: Landscape'
+    uniqueID: 1698357769
+    locked: 0
+  - name: 'Skybox: Background'
+    uniqueID: 2373398945
+    locked: 0
+  - name: 'Level: Background'
+    uniqueID: 2165600057
+    locked: 0
+  - name: 'Level: Midground'
+    uniqueID: 238833743
+    locked: 0
+  - name: Player
+    uniqueID: 3860510461
+    locked: 0
+  - name: 'Level: Foreground'
+    uniqueID: 2022345233
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []

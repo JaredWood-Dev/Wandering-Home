@@ -1,0 +1,886 @@
+fileFormatVersion: 2
+guid: 5c805480a35237c41bc27c7580b5ca64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5928394560011499659
+    second: Wandering Home Sprite Sheet Monochrome_0
+  - first:
+      213: -6851904204087642368
+    second: Wandering Home Sprite Sheet Monochrome_1
+  - first:
+      213: -6466331836634332859
+    second: Wandering Home Sprite Sheet Monochrome_2
+  - first:
+      213: 5393137419227891828
+    second: Wandering Home Sprite Sheet Monochrome_3
+  - first:
+      213: -4937176863809612623
+    second: Wandering Home Sprite Sheet Monochrome_4
+  - first:
+      213: 2344136629080472428
+    second: Wandering Home Sprite Sheet Monochrome_5
+  - first:
+      213: -5597875988069292385
+    second: Wandering Home Sprite Sheet Monochrome_6
+  - first:
+      213: -7958988889399123713
+    second: Wandering Home Sprite Sheet Monochrome_7
+  - first:
+      213: -6527808748391244216
+    second: Wandering Home Sprite Sheet Monochrome_8
+  - first:
+      213: 5236060683173871526
+    second: Wandering Home Sprite Sheet Monochrome_9
+  - first:
+      213: 6652899965445521036
+    second: Wandering Home Sprite Sheet Monochrome_10
+  - first:
+      213: -2289152246700451908
+    second: Wandering Home Sprite Sheet Monochrome_11
+  - first:
+      213: 2282458007983509905
+    second: Wandering Home Sprite Sheet Monochrome_12
+  - first:
+      213: -7036775264562033208
+    second: Wandering Home Sprite Sheet Monochrome_13
+  - first:
+      213: 2796070591615874229
+    second: Wandering Home Sprite Sheet Monochrome_14
+  - first:
+      213: 8917428389853413827
+    second: Wandering Home Sprite Sheet Monochrome_15
+  - first:
+      213: -1522996100207418241
+    second: Wandering Home Sprite Sheet Monochrome_16
+  - first:
+      213: 5393940958729640513
+    second: Wandering Home Sprite Sheet Monochrome_17
+  - first:
+      213: 583479809633393941
+    second: Wandering Home Sprite Sheet Monochrome_18
+  - first:
+      213: -4864559201251209374
+    second: Wandering Home Sprite Sheet Monochrome_19
+  - first:
+      213: 7366227662231070355
+    second: Wandering Home Sprite Sheet Monochrome_20
+  - first:
+      213: -5195791073126697269
+    second: Wandering Home Sprite Sheet Monochrome_21
+  - first:
+      213: 3739626246367680840
+    second: Wandering Home Sprite Sheet Monochrome_22
+  - first:
+      213: -9021572525922487945
+    second: Wandering Home Sprite Sheet Monochrome_23
+  - first:
+      213: -8270144580314503439
+    second: Wandering Home Sprite Sheet Monochrome_24
+  - first:
+      213: 9161376439913918416
+    second: Wandering Home Sprite Sheet Monochrome_25
+  - first:
+      213: 7702104639242924438
+    second: Wandering Home Sprite Sheet Monochrome_26
+  - first:
+      213: 2544793975074297219
+    second: Wandering Home Sprite Sheet Monochrome_27
+  - first:
+      213: 7683811216113814647
+    second: Wandering Home Sprite Sheet Monochrome_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 1
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 1
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_0
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 1946
+        width: 469
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88f7dd3173e54250800000000000000
+      internalID: 5928394560011499659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_1
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 1970
+        width: 200
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007b958ed6529e0a0800000000000000
+      internalID: -6851904204087642368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_2
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 1970
+        width: 191
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5418c956479f246a0800000000000000
+      internalID: -6466331836634332859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_3
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 1969
+        width: 170
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47802f1a8e548da40800000000000000
+      internalID: 5393137419227891828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_4
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 1964
+        width: 208
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4d957fccf9b7bb0800000000000000
+      internalID: -4937176863809612623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_5
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1741
+        width: 266
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bb25928db088020800000000000000
+      internalID: 2344136629080472428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_6
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 1748
+        width: 192
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96e07a92795052b0800000000000000
+      internalID: -5597875988069292385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_7
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 1762
+        width: 185
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0a51c06cdfb8190800000000000000
+      internalID: -7958988889399123713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_8
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 1742
+        width: 184
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ed37677809865a0800000000000000
+      internalID: -6527808748391244216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_9
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 1754
+        width: 188
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afb7f213793aa840800000000000000
+      internalID: 5236060683173871526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_10
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 1732
+        width: 234
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8eb69e1549d35c50800000000000000
+      internalID: 6652899965445521036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1455
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7d1aaf82c4b30e0800000000000000
+      internalID: -2289152246700451908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1454
+        width: 114
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1915a9c177becaf10800000000000000
+      internalID: 2282458007983509905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_13
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 1461
+        width: 213
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd4687ed2a585e90800000000000000
+      internalID: -7036775264562033208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_14
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 1504
+        width: 171
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b43e2c8363adc620800000000000000
+      internalID: 2796070591615874229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_15
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 1522
+        width: 168
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1423fbfd111cb70800000000000000
+      internalID: 8917428389853413827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_16
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 1510
+        width: 208
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74e4d4bd1b3ddae0800000000000000
+      internalID: -1522996100207418241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_17
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 1510
+        width: 178
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a928049b02bda40800000000000000
+      internalID: 5393940958729640513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_18
+      rect:
+        serializedVersion: 2
+        x: 3578
+        y: 1472
+        width: 209
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d9fc2abcfe81800800000000000000
+      internalID: 583479809633393941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1037
+        width: 231
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f40941e2d9d7cb0800000000000000
+      internalID: -4864559201251209374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1036
+        width: 299
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39660f5e7091a3660800000000000000
+      internalID: 7366227662231070355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_21
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1031
+        width: 299
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc633272c87d4e7b0800000000000000
+      internalID: -5195791073126697269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_22
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1035
+        width: 299
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8491977f142d5e330800000000000000
+      internalID: 3739626246367680840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_23
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1035
+        width: 299
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77177f4069fecc280800000000000000
+      internalID: -9021572525922487945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_24
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1036
+        width: 299
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f66b31425b8a3d80800000000000000
+      internalID: -8270144580314503439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_25
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1031
+        width: 299
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfa3b2455fb32f70800000000000000
+      internalID: 9161376439913918416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_26
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 1035
+        width: 299
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69176f4ac5f53ea60800000000000000
+      internalID: 7702104639242924438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_27
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1035
+        width: 299
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3859bde23ace05320800000000000000
+      internalID: 2544793975074297219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wandering Home Sprite Sheet Monochrome_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 542
+        width: 485
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c40a9279162aa60800000000000000
+      internalID: 7683811216113814647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wandering Home Sprite Sheet Monochrome_0: 5928394560011499659
+      Wandering Home Sprite Sheet Monochrome_1: -6851904204087642368
+      Wandering Home Sprite Sheet Monochrome_10: 6652899965445521036
+      Wandering Home Sprite Sheet Monochrome_11: -2289152246700451908
+      Wandering Home Sprite Sheet Monochrome_12: 2282458007983509905
+      Wandering Home Sprite Sheet Monochrome_13: -7036775264562033208
+      Wandering Home Sprite Sheet Monochrome_14: 2796070591615874229
+      Wandering Home Sprite Sheet Monochrome_15: 8917428389853413827
+      Wandering Home Sprite Sheet Monochrome_16: -1522996100207418241
+      Wandering Home Sprite Sheet Monochrome_17: 5393940958729640513
+      Wandering Home Sprite Sheet Monochrome_18: 583479809633393941
+      Wandering Home Sprite Sheet Monochrome_19: -4864559201251209374
+      Wandering Home Sprite Sheet Monochrome_2: -6466331836634332859
+      Wandering Home Sprite Sheet Monochrome_20: 7366227662231070355
+      Wandering Home Sprite Sheet Monochrome_21: -5195791073126697269
+      Wandering Home Sprite Sheet Monochrome_22: 3739626246367680840
+      Wandering Home Sprite Sheet Monochrome_23: -9021572525922487945
+      Wandering Home Sprite Sheet Monochrome_24: -8270144580314503439
+      Wandering Home Sprite Sheet Monochrome_25: 9161376439913918416
+      Wandering Home Sprite Sheet Monochrome_26: 7702104639242924438
+      Wandering Home Sprite Sheet Monochrome_27: 2544793975074297219
+      Wandering Home Sprite Sheet Monochrome_28: 7683811216113814647
+      Wandering Home Sprite Sheet Monochrome_3: 5393137419227891828
+      Wandering Home Sprite Sheet Monochrome_4: -4937176863809612623
+      Wandering Home Sprite Sheet Monochrome_5: 2344136629080472428
+      Wandering Home Sprite Sheet Monochrome_6: -5597875988069292385
+      Wandering Home Sprite Sheet Monochrome_7: -7958988889399123713
+      Wandering Home Sprite Sheet Monochrome_8: -6527808748391244216
+      Wandering Home Sprite Sheet Monochrome_9: 5236060683173871526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
