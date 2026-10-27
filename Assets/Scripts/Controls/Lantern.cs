@@ -53,8 +53,8 @@ public class Lantern : MonoBehaviour
         if (currentLight <= 0)
         {
             print("light ran out");
-            Destroy(this);
-            SceneManager.LoadScene(0);
+            AddLight(1000);
+            StartCoroutine(GetComponent<ResetPlayer>().TriggerReset());
         }
     }
 
