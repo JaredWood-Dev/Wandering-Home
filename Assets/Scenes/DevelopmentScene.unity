@@ -23977,7 +23977,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.607
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -50880,29 +50880,68 @@ MonoBehaviour:
   text:
     Sentences:
     - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: A little late to be wandering around in the dark huh?
     - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: Oh uh. I.. I'm just trying to go home.
     - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: Well, just be safe out there.
     - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: Those black scales and orange eyes. You remind me of someone.
     - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: Oh uh.
     - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: Have you heard of, oh what was his name. Jordgar I think?
     - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: Yeah, He's my dad.
     - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
-      displaySpeaker: 0
+      displaySpeaker: 1
       Sentence: So Jordgar had a son.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 1
+      Sentence: I imagine your aware, many are anticipating you.
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 1
+      Sentence: R.. Really?
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 1
+      Sentence: Yeah. The Son of a powerful Geomancer many are eagerly awaiting.
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 1
+      Sentence: ...
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 1
+      Sentence: I bet that is a lot on your sholders.
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 1
+      Sentence: You have no idea.
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 1
+      Sentence: Dad says he only wants me to be happy, that he dosen't care wether I have his powers or not.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 1
+      Sentence: Hmm. You don't believe him?
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 1
+      Sentence: Oh course I believe him! Its just, I still want to be a great as him.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 1
+      Sentence: Sounds like you don't believe him in your heart. I just want to you to know, back when your father was an adventurer, when he said something - he meant it.
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 1
+      Sentence: If your father dosen't care about imposing his legacy on you, then he truly dosn't.
+    - CurrentSpeaker: {fileID: 11400000, guid: d264785cf5cff9c458310d926bc1e615, type: 2}
+      displaySpeaker: 1
+      Sentence: Really?
+    - CurrentSpeaker: {fileID: 11400000, guid: ba68d1ed97c1f534898fb447ab4d89c3, type: 2}
+      displaySpeaker: 1
+      Sentence: That's Jordgar for you. Now get goin' I've got some nightmares to hunt.
   dialogueManager: {fileID: 1760276276}
 --- !u!1001 &2057252039
 PrefabInstance:
